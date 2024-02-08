@@ -1,0 +1,99 @@
+:root{
+    --main-color:#1ABC9C;
+    --sec-color:#2C3E50;
+}
+h1{
+    color: var(--sec-color);
+}
+.navbar-custom{
+    background-color: var(--sec-color) !important;
+}
+.active{
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+.footer{
+    background-color: var(--sec-color);
+}
+.foot{
+background-color: #1A252F;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.home-section{
+    background-color: var(--main-color);
+}
+
+.line{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+}
+.line1{
+    width: 70px;
+    height: 4px;
+    background-color: var(--sec-color);
+}
+.icon-sec{
+    color: var(--sec-color);
+}
+.port{
+    color:  #2C3E50;
+}
+
+.layer{
+   opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    right: 12px;
+    background-color:  #1abc9ce6;
+    transition: opacity 0.6s;
+}
+.layer i{
+    font-size: 7rem;
+}
+
+.portfoloio:hover .layer{
+    opacity: 1;
+}
+
+
+.about{
+    height: 75vh;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.about h1{
+    padding-top: 190px;
+}
+
+label{
+    color: var(--main-color);
+}
+
+.form-control:focus{
+    /* border: 0; */
+    border-color:#fff !important;
+}
+
+button{
+    background-color: var(--main-color);
+
+}
+
+.form-control:focus {
+    box-shadow:0 0 0 0 ;
+    border-bottom: 2px solid var(--main-color) !important ;
+   
+}
+label{
+    visibility: hidden;
+    
+}
